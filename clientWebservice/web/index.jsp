@@ -15,7 +15,7 @@
             <hr/> 
             <form  style="font-family:arial" action="ClienteWebConvT"  method=post> 
                 Grados:<br> 
-                <input  type="text"  name="ctGrados" value="S{requestScope.result" style="text-align:right"/><br><br> 
+                <input  type="text"  name="ctGrados" value="${requestScope.result}" style="text-align:right"/><br><br> 
                 <input  type="submit"  value="Convertir"  name="btConvertir" />
                 <br><br> 
                 <input  type="radio"  name="bgGrados"  value="aFahr"  checked/>
